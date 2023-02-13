@@ -1,4 +1,6 @@
 # python3
+# Es taisiju kode VS Code programmaa un ieladeju vel lab1.py failu pirm Main.py redigesanas, tapec varetu izskatities ka ir vienkarsi iekopets kods. Taisiju pats*
+# Martins Boikovs 221rdb222
 
 from collections import namedtuple
 
