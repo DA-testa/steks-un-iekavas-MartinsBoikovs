@@ -44,7 +44,7 @@ def main():
     if text[0:5] == 'I\\r\\n':
         text = text[5:]
     elif text == 'F':
-        file = './test/5'
+        file = "./Datu struktūras/test1.txt"
         with open(file) as f:
             text = f.read()
 
