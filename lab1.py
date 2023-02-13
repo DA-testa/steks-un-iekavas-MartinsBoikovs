@@ -41,7 +41,7 @@ def find_mismatch(text):
 
 def main():
     text = input()
-    if text == 'I\r':
+    if text == 'I\r\n':
         text = input()
     elif text == 'F':
         file = "./Datu struktūras/test1.txt"
