@@ -44,7 +44,7 @@ def main():
     if text == 'I':
         text = input()
     elif text == 'F':
-        file = 'test/5'
+        file = './test/5'
         with open(file) as f:
             text = f.read()
 
