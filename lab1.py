@@ -41,8 +41,8 @@ def find_mismatch(text):
 
 def main():
     text = input()
-    if text == 'I':
-        text = input()
+    if text[0:5] == 'I\\r\\n':
+        text = text[5:]
     elif text == 'F':
         file = './test/5'
         with open(file) as f:
